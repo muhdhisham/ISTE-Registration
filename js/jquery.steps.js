@@ -456,6 +456,7 @@ function getValidEnumValue(enumType, keyOrValue)
  **/
 function goToNextStep(wizard, options, state)
 {
+    
     return paginationClick(wizard, options, state, increaseCurrentIndexBy(state, 1));
 }
 
