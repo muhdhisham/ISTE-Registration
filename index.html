@@ -60,12 +60,12 @@
 									<div class="form-holder form-holder-2">
 										<fieldset>
 											<legend><i class="fas fa-mail-bulk"> Email</i></legend>
-											<input type="email" name="email" id="email" class="form-control"
+											<input type="email" name="email" id="email" class="form-control "
 												pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}"
 												placeholder="@gmail.com/@tkmce.ac.in" required>
 										</fieldset>
-										<div class="alert" role="alert" style="display:none;" id="alertingp">
-											<h6 class="p-0 m-0">please enter a valid phone number</h6>
+										<div class="alert"  role="alert" style="display: none;" id="emailalert">
+											<h6 class="p-0 m-0"> * please enter a valid email</h6>
 										</div>
 									</div>
 								</div>
@@ -93,6 +93,9 @@
 											<input type="number" class="form-control" id="phone" name="phone"
 												placeholder="777 7777 777" required >
 										</fieldset>
+										<div class="alert"  role="alert" style="display: none;" id="phonealert">
+											<h6 class="p-0 m-0"> * please enter a valid phone number</h6>
+										</div>
 									</div>
 								</div>
 								<div class="form-row">
@@ -391,11 +394,10 @@
 						</h2>
 						<section>
 							<p style="padding: 5em;" "font-size:small;font-weight:500;font-family:sans-serif d-flex text-align-justify">
-								<input type="checkbox" class="form-check-input mt-2 " name="" id="" value="checkedValue">I agree to
-								abide by the rules and the regulations of the ISTE regarding Student Membership and
+								I agree to abide by the rules and the regulations of the ISTE regarding Student Membership and
 								functioning of Student Chapters.Single Student Membership will not be entertained. <br> Kindly apply
 								along with all Students and through ISTE Student Chapter only </p>
-								<button style="margin-left: 5em; padding: 5px; border-radius: 10px;" disabled="disabled">Payment</button>
+
 						</section>
 					</div>
 				</form>
